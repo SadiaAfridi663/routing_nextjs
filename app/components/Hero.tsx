@@ -8,7 +8,7 @@ const Hero = () => {
         <div className="grid grid-cols-1  items-center gap-12 lg:grid-cols-2">
           
           {/* Left Content */}
-          <div className="order-2 lg:order-1 mx-auto">
+          <div className=" mx-auto">
             <h1 className="text-4xl  font-bold leading-tight text-gray-900 md:text-5xl">
               Live chat support <br /> for your customers.
             </h1>
@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
 
           {/* Right Image */}
-          <div className="order-1 lg:order-2 relative flex justify-center">
+          <div className=" relative flex justify-center">
             <Image
               src={hero}
               alt="Live chat illustration"
